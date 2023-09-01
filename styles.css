@@ -84,32 +84,32 @@ body {
   transform: translateY(-3px);
 }
 
-@media (max-width: 768px) {
-    .container {
-      padding: 20px 10px;
-    }
-  
-    .title {
-      font-size: 1.5em;
-    }
+@media only screen and (max-width: 768px){
+  .container {
+    padding: 20px 10px;
   }
   
-@media (max-width: 480px) {
-    .container {
-      width: 90%;
-    }
-  
-    .title {
-      font-size: 1.2em;
-    }
-  
-    .form, .file-input, .convert-button, .feedback, .output, .copy-button {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-  
-    .file-input, .convert-button, .output {
-      padding: 8px;
-    }
+  .title {
+    font-size: 1.5em;
   }
+}
+  
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+  
+  .title {
+    font-size: 1.2em;
+  }
+  
+  .form, .file-input, .convert-button, .feedback, .output, .copy-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .file-input, .convert-button, .output {
+    padding: 8px;
+  }
+}
   
