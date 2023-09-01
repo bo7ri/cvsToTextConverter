@@ -109,9 +109,9 @@ body {
 
 @media (max-width: 480px) {
   .container {
-    padding: 10px;
+    padding: 0px;
     width: 98%;
-    margin: 2px auto;
+    margin: 0px auto;
   }
 
   .title {
