@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSV to Text Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">CSV to Text Converter</h1>
+    <form id="csv-form" class="form">
+      <input type="file" id="csv-file-input" class="file-input" accept=".csv">
+      <button type="submit" id="convert-button" class="convert-button">Convert</button>
+    </form>
+    <p id="feedback" class="feedback"></p>
+    <textarea id="output" class="output" readonly></textarea>
+    <button id="copy-button" class="copy-button" disabled>Copy to Clipboard</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
